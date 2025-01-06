@@ -32,7 +32,7 @@ const router = createBrowserRouter([
         path: "/items/:id",
         element: <SingleProduct />,
         loader: ({ params }) =>
-          fetch(`https://recipe-food-backend.vercel.app//api/items/${params.id}`),
+          fetch(`https://recipe-food-backend.vercel.app/api/items/${params.id}`),
       },
     ],
   },
