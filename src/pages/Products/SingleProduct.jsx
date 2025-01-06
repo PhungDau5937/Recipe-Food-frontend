@@ -37,9 +37,9 @@ const SingleProduct = () => {
           <div className="front-page">
             <div className="">
               <img src={item?.thumbnail_image} />
-              <h3 className="flex justify-center mt-5 text-secondary text-2xl font-bold">{item?.name}</h3>
+              <h3 className="flex justify-center mt-5 text-secondary text-xl font-bold">{item?.name}</h3>
               <article className="bg-white p-3 rounded-lg">
-                <h2 className="text-lg font-semibold mt-2 ml-2">Nutrition:</h2>
+                <h2 className="text-xl font-semibold mt-2 ml-2">Nutrition:</h2>
                 <ul className="list-disc mt-2 ml-8 text-sm marker:text-orange-500">
                   <li className="pl-3">
                     <p className="flex justify-between">
